@@ -2,4 +2,149 @@
     padding: 0;
     margin:0;
     box-sizing: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.top-nav{
+    display: flex;
+    justify-content:space-between;
+    font-size: 12px;
+    background-color: #313131;   
+    padding: 1% 1%;
+}
+
+.top-nav-left{
+    color: red;
+}
+
+.top-nav-right{
+    display: flex;
+    justify-content:space-around;
+    color: white;
+    flex-wrap: nowrap;
+    
+}
+.top-nav-right-item{
+    padding: 0 1.5rem;
+
+}
+
+.mid-nav{
+    background-color: #414141;
+    padding: 1.5rem 1.5rem;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+
+.logo-anhkhue-nav, .logo-casio-nav{
+    width: 115px;
+    height: 40px;
+}
+
+
+.input-icon i{
+    position: absolute;
+}
+
+.icon{
+    padding: 5px 2px;
+    color: #000;
+}
+
+.search-pro, .contact-cart-right, .contact, .cart{
+    display: flex;
+    
+}
+.info-contact , .info-cart{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact, .cart{
+    color: white;
+    font-size: 12px;
+}
+
+.input-search{
+    padding: 12px 50px;
+
+}
+
+.icon{
+    margin: 1% 1%;
+}
+
+.btn-search{
+    background-color: red;
+    padding: 0 10px;
+    color:white;
+    border: none;
+}
+
+
+.icon-phone , .icon-cart{
+    width: 30px;
+    height: 30px; 
+}
+
+
+.bottom-nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    align-items: center;
+}
+
+.list-nav{
+    background-color:red;
+    padding: 1rem 1.5rem;
+    align-items: center;
+}
+
+.nav-main{
+    display: flex;
+
+
+}
+.nav-main-item{
+    margin: 0 1.5rem;
+    white-space: nowrap;
+
+}
+
+.img-item{
+    width: 100%;
+    height: 500px;
+
+}
+
+.slick-dots{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50% , -10px);
+    display: flex !important;
+    align-items: center;
+    justify-content:center;
+    background-color:white;
+    border-radius:10px;
+    padding: 0 10px;
+    gap: 20px;
+    list-style-type: none;
+}
+.slick-dots  button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50rem;
+    border: none;
+    outline: none;
+  
+}
+.slick-active button{
+    background-color:red;
 }
