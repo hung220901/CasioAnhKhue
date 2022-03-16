@@ -103,6 +103,7 @@
     background-color:red;
     padding: 1rem 1.5rem;
     align-items: center;
+    color: white;
 }
 
 .nav-main{
@@ -126,13 +127,13 @@
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translate(-50% , -10px);
+    transform: translate(-50% , -20px);
     display: flex !important;
     align-items: center;
     justify-content:center;
     background-color:white;
-    border-radius:10px;
-    padding: 0 10px;
+    border-radius:20px;
+    padding: 0 10px 7px 10px;
     gap: 20px;
     list-style-type: none;
 }
@@ -147,4 +148,115 @@
 }
 .slick-active button{
     background-color:red;
+}
+
+.certificates{
+    margin: 2% 2%;
+}
+
+
+.certificates, .certificates-left, .certificates-mid , .certificates-right{
+    display: flex;
+    justify-content:space-around;
+}
+.cer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5%;
+    white-space: nowrap;
+}
+
+.certificates-logo{
+    width: 50px;
+    height: 50px;
+}
+.cer-heading{
+    font-weight: bold;
+}
+
+.sale-product-container{
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+.sale-product{
+    
+}
+
+
+.img-item-product{
+    width: 270px;
+    height: 400px;
+}
+
+
+.brand{
+    display: flex;
+    justify-content:space-around;
+    padding: 2% 1%;
+}
+
+.brand-item{
+    border: 1px solid #ccc;
+}
+
+.img-brand-item {
+    width: 214px;
+    height: 90px;
+}
+.hot-product-info, .style-info{
+    position: absolute;
+}
+
+.hot-product, .style{
+    background-color: #f9f9f9;
+}
+.product-slider ,.style-product{
+    margin-left: 500px;
+}
+
+.product-img-item , .img-product-style{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    width: 680px;
+    height: 370px;
+ 
+}
+.news-events{
+    font-size: 14px;
+    margin: 2% 5%;
+}
+.news-events , .news-list-box{
+    display: flex;
+    justify-content: space-around;
+}
+.news-box{
+    padding: 2% 2%;
+}
+.news-title{
+    font-weight: bold;
+}
+
+.news-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.news-more{
+    color: red;
+}
+
+.news-events-left{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.img-news-popular{
+    width: 310px;
+    height: 185px;
+
+}
+.news-promotion{
+    flex: 1.5;
 }
